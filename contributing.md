@@ -142,6 +142,16 @@ $ npm run lint
 }
 ```
 
+You can also exclude files:
+
+```json
+{
+ "standard": {
+   "ignore": "lib/es5/**/*.js"
+ }
+}
+```
+
 For extra credit, install [`jq`](https://stedolan.github.io/jq/) and `sponge` from GNU's `moreutils` and do it in one line:
 
 ```sh
